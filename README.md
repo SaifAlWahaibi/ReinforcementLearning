@@ -33,4 +33,4 @@ Q-Learning: -
 <br>&nbsp; &nbsp; Initialize environment $s_{0}$
 <br>&nbsp; &nbsp; **for** $t = 0, 1, 2, ..., T$ **do**
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Select action $a_{t}$ randomly with probability $\epsilon$, otherwise
-<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $a_{t} = \arg\max_{a_{t}} \hat{Q}_{\theta}(s, a)$ 
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $a_{t} = \arg\max_{a_{t}} \hat{Q}_{\theta}(s_t, a)$ 
