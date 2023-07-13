@@ -39,3 +39,6 @@ Q-Learning: -
 <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\delta_{TD} = r_{t + 1} + \gamma \max_{a_{t + 1}} \hat{Q_{\theta}}(s_{t + 1}, a)$
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Perform a gradient descent step on
 <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q_{\theta}}(s_{t}, a_{t}))^{2}]$
+<br>&nbsp; &nbsp; &nbsp; &nbsp; Set $s_{t + 1}$ as current state
+<br>&nbsp; &nbsp; **end for**
+<br>**end for**
