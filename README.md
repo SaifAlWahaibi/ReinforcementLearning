@@ -29,3 +29,4 @@ Q-Learning: -
 
 - Pseudocode:
 <br>Initialize $Q_{\theta}(s, a)$ with random weight
+<br>    Initialize $Q_{\theta}(s, a)$ with random weight
