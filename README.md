@@ -28,4 +28,4 @@ Q-Learning: -
      - $\delta_{TD} = r + \gamma \max_{a^{'}} \hat{Q}_{\theta}(s^{'}, a^{'})$
 
 - Pseudocode:
-    Initialize $Q_{\theta}(s, a)$ with random weight
+&nbsp; Initialize $Q_{\theta}(s, a)$ with random weight
