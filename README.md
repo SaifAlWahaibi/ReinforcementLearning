@@ -30,7 +30,7 @@ Q-Learning: -
 - Pseudocode:
 <br>Initialize $Q_{\theta}(s, a)$ with random weight
 <br>**for** $episode = 1, 2, 3, ..., N$ **do**
-<br>&nbsp; Initialize environment $s_{0}$
-<br>&nbsp; **for** $t = 0, 1, 2, ..., T$ **do**
-<br>&nbsp; &nbsp; Select action $a_{t}$ randomly with probability $\epsilon$, otherwise
-<br>&nbsp; &nbsp; &nbsp; $a_{t} = \arg\max_{a_{t}} \hat{Q}_{\theta}(s, a)$ 
+<br>&nbsp; &nbsp; Initialize environment $s_{0}$
+<br>&nbsp; &nbsp; **for** $t = 0, 1, 2, ..., T$ **do**
+<br>&nbsp; &nbsp; &nbsp; &nbsp; Select action $a_{t}$ randomly with probability $\epsilon$, otherwise
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $a_{t} = \arg\max_{a_{t}} \hat{Q}_{\theta}(s, a)$ 
