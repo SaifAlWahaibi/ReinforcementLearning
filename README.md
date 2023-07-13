@@ -27,5 +27,4 @@ Q-Learning: -
      - $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q}_{\theta}(s, a))^{2}]$
      - $\delta_{TD} = r + \gamma \max_{a^{'}} \hat{Q}_{\theta}(s^{'}, a^{'})$
 
-- Pseudocode:
-&nbsp; Initialize $Q_{\theta}(s, a)$ with random weight
+- Pseudocode:<br> Initialize $Q_{\theta}(s, a)$ with random weight
