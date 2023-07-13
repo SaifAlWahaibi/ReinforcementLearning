@@ -29,5 +29,6 @@ Q-Learning: -
 
 - Pseudocode:
 <br>Initialize $Q_{\theta}(s, a)$ with random weight
-<br>**for** $episode = 1, 2, 3, ..., N$ **do
-<br>&nbsp; &nbsp; **for** $episode = 1, 2, 3, ..., N$ **do**
+<br>**for** $episode = 1, 2, 3, ..., N$ **do**
+<br>&nbsp; Initialize environment $s_{0}$
+<br>&nbsp; **for** $t = 0, 1, 2, ..., T$ **do**
