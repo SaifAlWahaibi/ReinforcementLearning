@@ -21,8 +21,9 @@ Comments: -
 
 Q-Learning: -
  - Estimate $Q_{\pi}(s, a)$ via function approximation
+![QL](https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/f4ae0c82-94da-4178-b721-4cb07ced6de3)
 
-   <QL src="https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/d44b8232-3cb9-4cf4-8a3c-088ed72a08b4" width="400" height="300">
+   <[QL] src="https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/d44b8232-3cb9-4cf4-8a3c-088ed72a08b4" width="400" height="300">
 
  - Cost Function:
      - $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q_{\theta}}(s, a))^{2}]$
