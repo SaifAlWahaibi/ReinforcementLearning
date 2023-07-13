@@ -20,4 +20,6 @@ Comments: -
  - Please read "RL Algorithms_v1.pdf" for more information
 
 Q-Learning: -
- - Estimate $Q_{\pi}$
+ - Estimate $Q_{\pi}(s, a)$ via function approximation
+![QL](https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/573616c2-038b-4845-8654-36cf31e9ee19)
+
