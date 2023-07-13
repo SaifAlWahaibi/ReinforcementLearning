@@ -24,5 +24,5 @@ Q-Learning: -
 ![QL](https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/573616c2-038b-4845-8654-36cf31e9ee19)
 
  - Cost Function:
- -- $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q}_{\theta}(s, a))^{2}]$
+ - - $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q}_{\theta}(s, a))^{2}]$
 
