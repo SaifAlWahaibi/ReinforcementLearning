@@ -25,4 +25,5 @@ Q-Learning: -
 
  - Cost Function:
      - $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q}_{\theta}(s, a))^{2}]$
+     - $\delta_{TD} = r + \gamma \max_{a^{'}}$
 
