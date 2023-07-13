@@ -30,4 +30,4 @@ Q-Learning: -
 - Pseudocode:
 <br>Initialize $Q_{\theta}(s, a)$ with random weight
 <br>**for** $episode = 1, 2, 3, ..., N$ **do
-<br>&nbsp; **for** $episode = 1, 2, 3, ..., N$ **do**
+<br>&nbsp; &nbsp; **for** $episode = 1, 2, 3, ..., N$ **do**
