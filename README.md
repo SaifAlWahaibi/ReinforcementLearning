@@ -1,6 +1,6 @@
 # ReinforcementLearning
 Different reinforcement learning algorithm
 
- - While all the codes were indeed written by myself, they are influenced by the works of [@philtabor](https://github.com/philtabor)
+ - While all the codes were indeed written and contain personal touches by myself, they are influenced by the works of [@philtabor](https://github.com/philtabor) and [@lweitkamp](https://github.com/lweitkamp)
 
 Please read "RL Algorithms_v1.pdf" for more information
