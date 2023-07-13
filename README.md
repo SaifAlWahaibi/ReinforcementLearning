@@ -35,4 +35,4 @@ Q-Learning: -
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Select action $a_{t}$ randomly with probability $\epsilon$, otherwise
 <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $a_{t} = \arg\max_{a_{t}} \hat{Q}_{\theta}(s_t, a)$
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Execute action $a_t$ in environment and observe $r_t_+_1$, $s_t+1$ and terminal and truncate flags
-<br>&nbsp; &nbsp; &nbsp; &nbsp; Set TD target $\delta_TD = r_t_+_1$ if terminal or truncate flags, otherwise
+<br>&nbsp; &nbsp; &nbsp; &nbsp; Set TD target $\delta_TD = r_t$ if terminal or truncate flags, otherwise
