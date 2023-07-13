@@ -27,7 +27,7 @@ Q-Learning: -
      - $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q_{\theta}}(s, a))^{2}]$
      - $\delta_{TD} = r + \gamma \max_{a^{'}} \hat{Q}_{\theta}(s^{'}, a^{'})$
 
-- Pseudocode:
+ - Pseudocode:
 <br>Initialize $Q_{\theta}(s, a)$ with random weight
 <br>**for** $episode = 1, 2, 3, ..., N$ **do**
 <br>&nbsp; &nbsp; Initialize environment $s_{0}$
@@ -42,3 +42,7 @@ Q-Learning: -
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Set $s_{t + 1}$ as current state
 <br>&nbsp; &nbsp; **end for**
 <br>**end for**
+
+ - Pseudocode:
+     - My solution of the "CartPole-v1" Gym Environment:
+![image](https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/2b113d07-9ccd-47f0-9762-d1ed03df73d6)
