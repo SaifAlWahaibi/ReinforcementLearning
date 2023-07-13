@@ -45,4 +45,4 @@ Q-Learning: -
 
  - Pseudocode:
      - My solution for the "CartPole-v1" Gym environment:
-   <img src="https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/2b113d07-9ccd-47f0-9762-d1ed03df73d6" width="200" height="400">
+   <img src="https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/2b113d07-9ccd-47f0-9762-d1ed03df73d6" width="400" height="200">
