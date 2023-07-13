@@ -24,9 +24,9 @@ Q-Learning: -
 ![QL](https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/573616c2-038b-4845-8654-36cf31e9ee19)
 
  - Cost Function:
-     - $J(\theta)=\math{E}_{\pi}[(\delta_{TD} - \hat{Q}_{\theta}(s, a))^{2}]$
+     - $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q}_{\theta}(s, a))^{2}]$
      - $\delta_{TD} = r + \gamma \max_{a^{'}} \hat{Q}_{\theta}(s^{'}, a^{'})$
 
 - Pseudocode:
 <br>Initialize $Q_{\theta}(s, a)$ with random weight
-<br>\bold{for} episode $= 1, 2, 3, ..., E$ \bold{do}
+<br>for episode $= 1, 2, 3, ..., E$ do
