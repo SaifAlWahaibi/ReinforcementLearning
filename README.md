@@ -35,7 +35,7 @@ Q-Learning: -
 <br>&nbsp; &nbsp; **for** $t = 0, 1, 2, ..., T$ **do**
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Select action $a_{t}$ randomly with probability $\epsilon$, otherwise
 <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $a_{t} = \arg\max_{a_{t}} \hat{Q_{\theta}}(s_{t}, a)$
-<br>&nbsp; &nbsp; &nbsp; &nbsp; Execute action $a_{t}$ in environment and observe $r_{t + 1}$, $s_{t + 1}$ and terminal and truncate flags
+<br>&nbsp; &nbsp; &nbsp; &nbsp; Execute action $a_{t}$ in environment and observe $r_{t + 1}$, $s_{t + 1}$, terminal and truncate flags
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Set TD target $\delta_{TD} = r_{t + 1}$ if terminal or truncate flag is true, otherwise
 <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\delta_{TD} = r_{t + 1} + \gamma \max_{a_{t + 1}} \hat{Q_{\theta}}(s_{t + 1}, a)$
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Perform a gradient descent step on
