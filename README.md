@@ -56,8 +56,8 @@ Double Q-Learning: -
    <img src="https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/6184de42-a6b9-48d7-8579-82ec67121aea" width="500" height="300">
 
  - Cost Function:
-     - $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q_{\theta}}(s, a))^{2}]$
-     - $\delta_{TD} = r + \gamma \max_{a^{'}} \hat{Q}_{\theta}(s^{'}, a^{'})$
+     - $J(\theta_{i})=E_{\pi}[(\delta_{TD}} - \hat{Q_{\theta}}(s, a))^{2}]$
+     - $\delta_{TD} = r + \gamma \hat{Q}_{\theta_{j}} (s^{'}, \arg\max_{a^{'}} \hat{Q}_{\theta_{i}}(s^{'}, a^{'}))$
 
  - Pseudocode:
 <br>Initialize $Q_{\theta}(s, a)$ with random weight
