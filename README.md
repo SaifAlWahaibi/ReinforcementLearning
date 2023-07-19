@@ -57,7 +57,7 @@ Double Q-Learning: -
 
  - Cost Function:
      - $J(\theta_{i})=E_{\pi}[(\delta_{TD} - \hat{Q_{\theta_{i}}}(s, a))^{2}]$
-     - $\delta_{TD} = r + \gamma \hat{Q}_{\theta_{j}} (s^{'}, \arg\max_{a^{'}} \hat{Q}_{\theta_{i}}(s^{'}, a^{'}))$
+     - $\delta_{TD} = r + \gamma \hat{Q_{\theta_{j}}}(s^{'}, \arg\max_{a^{'}} \hat{Q_{\theta_{i}}}(s^{'}, a^{'}))$
 
  - Pseudocode:
 <br>Initialize $Q_{\theta}(s, a)$ with random weight
