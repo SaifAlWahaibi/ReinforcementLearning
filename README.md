@@ -19,11 +19,10 @@ Comments: -
  - While all the codes learn to solve the control problem presented by the chosen environment, in no way are they the ideal solution. More fine tuning of the hyperparameters is needed. Nonetheless, the solutions offered are acceptable
  - Please read "RL Algorithms_v2.pdf" for more information
 
-Double Q-Learning: -
+Q-Learning: -
  - Estimate $Q_{\pi}(s, a)$ via function approximation
- - Use two Q-networks to handle maximization bias
 
-   <img src="https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/6184de42-a6b9-48d7-8579-82ec67121aea" width="400" height="300">
+   <img src="https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/b69961a4-64ae-4f08-9533-ac9380f0c3bf" width="400" height="300">
 
  - Cost Function:
      - $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q_{\theta}}(s, a))^{2}]$
@@ -50,10 +49,11 @@ Double Q-Learning: -
        
        <img src="https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/2b113d07-9ccd-47f0-9762-d1ed03df73d6" width="400" height="300">
 
-Q-Learning: -
+Double Q-Learning: -
  - Estimate $Q_{\pi}(s, a)$ via function approximation
+ - Use two Q-networks to handle maximization bias
 
-   <img src="https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/b69961a4-64ae-4f08-9533-ac9380f0c3bf" width="400" height="300">
+   <img src="https://github.com/SaifAlWahaibi/ReinforcementLearning/assets/106843163/6184de42-a6b9-48d7-8579-82ec67121aea" width="400" height="300">
 
  - Cost Function:
      - $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q_{\theta}}(s, a))^{2}]$
