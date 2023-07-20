@@ -70,8 +70,8 @@ Double Q-Learning: -
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Choose at random either to update 1 or 2
 <br>&nbsp; &nbsp; &nbsp; &nbsp; **if** $i = 1$ or $2$ **then**
 <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Set TD target $\delta_{TD} = r_{t + 1}$ if terminal or truncate flag is true, otherwise
-<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $a=\arg\max_{a_{t+1}} \hat{Q_{\theta_{i}}}(s_{t+1}, a_{t+1})$
-<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\delta_{TD} = r_{t + 1} + \gamma \hat{Q_{\theta_{3-i}}}(s_{t + 1}, a)$
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $a^{+}=\arg\max_{a_{t+1}} \hat{Q_{\theta_{i}}}(s_{t+1}, a_{t+1})$
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\delta_{TD} = r_{t + 1} + \gamma \hat{Q_{\theta_{3-i}}}(s_{t + 1}, a^{+})$
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Perform a gradient descent step on
 <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $J(\theta)=E_{\pi}[(\delta_{TD} - \hat{Q_{\theta}}(s_{t}, a_{t}))^{2}]$
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Set $s_{t + 1}$ as current state
