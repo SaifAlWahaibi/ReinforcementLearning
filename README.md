@@ -60,12 +60,12 @@ Double Q-Learning: -
      - $\delta_{TD} = r + \gamma \hat{Q_{\theta_{j}}}(s^{'}, \arg\max_{a^{'}} \hat{Q_{\theta_{i}}}(s^{'}, a^{'}))$
 
  - Pseudocode:
-<br>Initialize $Q_{\theta}(s, a)$ with random weight
+<br>Initialize $Q_{\theta_{x}}(s, a)$ with random weight
 <br>**for** $episode = 1, 2, 3, ..., N$ **do**
 <br>&nbsp; &nbsp; Initialize environment $s_{0}$
 <br>&nbsp; &nbsp; **for** $t = 0, 1, 2, ..., T$ **do**
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Select action $a_{t}$ randomly with probability $\epsilon$, otherwise
-<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $a_{t} = \arg\max_{a_{t}} \hat{Q_{\theta}}(s_{t}, a)$
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $a_{t} = \arg\max_{a_{t}} ((\hat{Q_{\theta_{1}}}(s_{t}, a) + \hat{Q_{\theta_{1}}}(s_{t}, a)) / 2)$
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Execute action $a_{t}$ in environment and observe $r_{t + 1}$, $s_{t + 1}$, terminal and truncate flags
 <br>&nbsp; &nbsp; &nbsp; &nbsp; Set TD target $\delta_{TD} = r_{t + 1}$ if terminal or truncate flag is true, otherwise
 <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\delta_{TD} = r_{t + 1} + \gamma \max_{a_{t + 1}} \hat{Q_{\theta}}(s_{t + 1}, a)$
