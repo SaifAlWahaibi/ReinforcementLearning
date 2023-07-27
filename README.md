@@ -1,4 +1,4 @@
-# ReinforcementLearning
+# Reinforcement Learning
 This repository contains my implementation of different reinforcement learning algorithms, such as
  - Q-Learning
  - Double Q-Learning
